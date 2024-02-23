@@ -13,4 +13,7 @@
 //Components
 @import "src/components/App/App";
 @import "src/components/Sidebar/Sidebar";
-@import "src/components/Page/Page";
+@import "../components/Profile/Profile";
+@import "../components/Profile/PostsWall/PostsWall";
+@import "../components/Profile/PostsWall/Post/Post";
+

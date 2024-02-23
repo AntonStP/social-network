@@ -5,18 +5,18 @@
 
 @mixin option-mob($n, $vm, $vt: $vm){
   @include MOBILE{
-    #{$n}:($vm);
+    #{$n}: #{$vm}px;
   }
   @include TABLET{
-    #{$n}:($vt);
+    #{$n}: #{$vt}px;
   }
 }
 
 @mixin option-desk($n, $v){
   @include DESKTOP{
-    #{$n}:($v);
+    #{$n}: #{$v}px;
   }
   @include TABLET-L{
-    #{$n}:($v);
+    #{$n}: #{$v}px;
   }
 }

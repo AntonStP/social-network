@@ -1,0 +1,20 @@
+.post {
+  display: flex;
+  align-items: center;
+  @include option(margin-bottom, 20);
+
+
+  &__avatar {
+    @include option(width, 70);
+    @include option(height, 70);
+    @include option(margin-right, 20);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #151824;
+    img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}

@@ -2,9 +2,9 @@ import PostsWall from "./PostsWall/PostsWall";
 
 function Profile() {
     return (
-        <header className="page">
+        <section className={"profile"}>
             <PostsWall/>
-        </header>
+        </section>
     );
 }
 

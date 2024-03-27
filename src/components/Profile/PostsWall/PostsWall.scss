@@ -1,8 +1,4 @@
 .posts-wall {
   grid-area: page;
   background: darkseagreen;
-
-  @include option(padding, 30);
-  box-sizing: border-box;
-
 }

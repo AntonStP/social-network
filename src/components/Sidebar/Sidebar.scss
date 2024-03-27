@@ -1,4 +1,11 @@
 .sidebar {
   grid-area: sidebar;
   background: darksalmon;
+  @include option(padding, $P);
+
+  &__item {
+    &:not(&:last-of-type) {
+      @include option(margin, 0 0 20);
+    }
+  }
 }

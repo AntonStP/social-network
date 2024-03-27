@@ -1,16 +1,26 @@
 import './App.scss';
 import Header from "../baseComponents/gui/Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
-import Profile from "../Profile/Profile";
+import { BrowserRouter as Router} from "react-router-dom";
+import {content} from "../../constants/copyright";
+import Page from "../Page/Page";
 
 function App() {
-  return (
-    <div className="app">
-      <Header/>
-      <Sidebar/>
-      <Profile/>
-    </div>
-  );
+    const {sidebar} = content;
+
+    console.log('sidebar', sidebar)
+
+    return (
+        <Router>
+            <div className="app">
+                <Header/>
+                <div className={'page'}>
+                    <Page/>
+                </div>
+                <Sidebar {...sidebar}/>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

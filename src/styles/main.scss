@@ -1,19 +1,25 @@
-@import 'reset';
-@import 'constants';
-@import 'adaptive';
-@import 'mixins';
+@import '_reset';
+@import '_constants';
+@import '_adaptive';
+@import '_mixins';
 
 //Pages
 
 
 //Gui
-@import "src/components/baseComponents/gui/Header/Header";
-
+@import "../components/baseComponents/gui/Header/Header";
 
 //Components
-@import "src/components/App/App";
-@import "src/components/Sidebar/Sidebar";
+@import "../components/App/App";
+@import "../components/Page/Page";
+@import "../components/Sidebar/Sidebar";
+
 @import "../components/Profile/Profile";
 @import "../components/Profile/PostsWall/PostsWall";
-@import "../components/Profile/PostsWall/Post/Post";
+@import "../components/Profile/Post/Post";
+
+@import "../components/Dialogs/Dialogs";
+@import "../components/News/News";
+@import "../components/Music/Music";
+@import "../components/Settings/Settings";
 

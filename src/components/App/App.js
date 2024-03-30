@@ -6,15 +6,15 @@ import Page from "../Page/Page";
 import {content} from "../../constants/copyright";
 
 function App() {
-    const {sidebar} = content;
+    const {header, sidebar} = content;
 
 
     return (
         <Router>
             <div className="app">
-                <Header/>
+                <Header {...header}/>
                 <div className={'page'}>
-                    <Page/>
+                    <Page {...content}/>
                 </div>
                 <Sidebar {...sidebar}/>
             </div>

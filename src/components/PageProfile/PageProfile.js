@@ -1,11 +1,11 @@
 import PostsWall from "./PostsWall/PostsWall";
 
-function Profile() {
+function PageProfile() {
     return (
-        <section className={"profile"}>
+        <section className={"page-profile"}>
             <PostsWall/>
         </section>
     );
 }
 
-export default Profile;
+export default PageProfile;

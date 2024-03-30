@@ -2,4 +2,20 @@
   grid-area: header;
   @include option(padding, $P);
   background: coral;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    @include option(font-size, 32);
+    font-variation-settings: "wght" 600, "wdth" 100;
+    line-height: 1.2;
+    color: $WHITE;
+    span {
+      display: flex;
+      justify-content: center;
+      @include option(width, 32*1.2);
+      @include option(height, 32*1.2);
+      background: #29477e;
+    }
+  }
 }

@@ -1,0 +1,4 @@
+.dialog {
+  @include option(padding, 20px 0);
+  font-variation-settings: "wght" 500;
+}

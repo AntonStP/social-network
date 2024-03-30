@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/main.scss';
-import './fonts/OpenSans-Regular.woff2';
-import './fonts/OpenSans-Regular.woff';
-import './fonts/OpenSans-Regular.ttf';
+import './fonts/OpenSans.ttf';
 
 import App from "./components/App/App";
 import reportWebVitals from './reportWebVitals';

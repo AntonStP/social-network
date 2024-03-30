@@ -2,7 +2,6 @@ import {NavLink} from "react-router-dom";
 
 function Sidebar({links}) {
 
-    console.log('menu', links)
     return (
         <header className="sidebar">
             <ul className={'sidebar__list'}>

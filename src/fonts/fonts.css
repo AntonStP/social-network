@@ -1,11 +1,8 @@
 @font-face {
     font-family: "OpenSans";
-    src:
-        local("OpenSans"),
-        url("OpenSans-Regular.woff2") format("woff2") ,
-        url("OpenSans-Regular.woff") format("woff"),
-        url("OpenSans-Regular.ttf") format("trueType");
-    font-weight: bold;
-    font-style: normal;
+    src: local("OpenSans"),
+        url("OpenSans.ttf") format("trueType");
     font-display: swap;
+    font-weight: 300 800;
+    font-stretch: 75% 100%;
 }

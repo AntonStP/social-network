@@ -4,20 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="chore(Sidebar): цвет активных ссылок">
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/fonts.css" afterDir="false" />
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(): подключены шрифты">
+      <change afterPath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageDialogs/Message/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/safeHTML.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Music/Music.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageMusic/PageMusic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Music/Music.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageMusic/PageMusic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageNews/PageNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/News.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageNews/PageNews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Post/Post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostsWall/PostsWall.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Message/Message.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageSettings/PageSettings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageSettings/PageSettings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/copyright.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/copyright.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_constants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_constants.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +69,7 @@
 }</component>
   <component name="ProjectId" id="2akxaA0cIjRNNdmfkwfI5mzAJVS" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -51,7 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
-    "last_opened_file_path": "D:/prog/my-projects/social-network/src",
+    "last_opened_file_path": "D:/prog/my-projects/social-network/src/utils",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,18 +92,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\prog\my-projects\social-network\src" />
-      <recent name="D:\prog\my-projects\social-network\src\public\fonts" />
-      <recent name="D:\prog\my-projects\social-network\src\components" />
+      <recent name="D:\prog\my-projects\social-network\src\utils" />
+      <recent name="D:\prog\my-projects\social-network\src\components\PageDialogs" />
+      <recent name="D:\prog\my-projects\social-network\src\components\ProfilePage" />
       <recent name="D:\prog\my-projects\social-network\src\components\Dialogs" />
-      <recent name="D:\prog\my-projects\social-network\src\components\baseComponents\Page" />
+      <recent name="D:\prog\my-projects\social-network\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\prog\my-projects\social-network\src\fonts" />
+      <recent name="D:\prog\my-projects\social-network\src\components\PageProfile" />
+      <recent name="D:\prog\my-projects\social-network\src\components\Dialogs" />
       <recent name="D:\prog\my-projects\social-network\public" />
       <recent name="D:\prog\my-projects\social-network\src\components\Profile" />
-      <recent name="D:\prog\my-projects\social-network\src\components\Profile\PostsWall" />
-      <recent name="D:\prog\my-projects\social-network\src\pages" />
-      <recent name="D:\prog\my-projects\social-network\src\components\App" />
     </key>
   </component>
   <component name="RunManager">
@@ -117,7 +144,7 @@
       <workItem from="1711300221821" duration="1151000" />
       <workItem from="1711352296852" duration="9000" />
       <workItem from="1711566964571" duration="7169000" />
-      <workItem from="1711814940536" duration="4452000" />
+      <workItem from="1711814940536" duration="9520000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
       <option name="closed" value="true" />
@@ -175,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711817037339</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat(): подключены шрифты">
+      <option name="closed" value="true" />
+      <created>1711819561369</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711819561369</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +236,7 @@
     <MESSAGE value="feat(): добавлены основные страницы" />
     <MESSAGE value="feat(): роутинг страниц" />
     <MESSAGE value="chore(Sidebar): цвет активных ссылок" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(Sidebar): цвет активных ссылок" />
+    <MESSAGE value="feat(): подключены шрифты" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(): подключены шрифты" />
   </component>
 </project>

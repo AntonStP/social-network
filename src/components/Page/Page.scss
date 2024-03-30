@@ -1,5 +1,6 @@
 .page {
   grid-area: page;
+  @include option(font-size, 16);
 
   section {
     @include option(padding, 20);

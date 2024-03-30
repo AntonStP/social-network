@@ -1,0 +1,20 @@
+@import "Dialog/Dialog";
+@import "Message/Message";
+
+.page-dialogs {
+  display: grid;
+  grid-template-columns: 2fr 7fr ;
+  @include option(font-size, 18);
+  background: darkseagreen;
+
+  &__list {
+
+  }
+
+  &__messages {
+    @include option(padding, 0 $P);
+    @include option(border-width, 2);
+    border: solid gray;
+  }
+
+}

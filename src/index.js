@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/main.scss';
+import './fonts/OpenSans-Regular.woff2';
+import './fonts/OpenSans-Regular.woff';
+import './fonts/OpenSans-Regular.ttf';
 
 import App from "./components/App/App";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

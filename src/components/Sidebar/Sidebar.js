@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 function Sidebar({links}) {
 
@@ -8,7 +8,7 @@ function Sidebar({links}) {
             <ul className={'sidebar__list'}>
                 {links?.map(({link,text},id)=> (
                     <li key={`link-${id}`} className={'sidebar__item'}>
-                        <Link to={link}>{text}</Link>
+                        <NavLink to={link} className={'sidebar__item-link'}>{text}</NavLink>
                     </li>
                 ))}
             </ul>

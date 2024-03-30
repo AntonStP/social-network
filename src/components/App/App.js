@@ -8,7 +8,6 @@ import Page from "../Page/Page";
 function App() {
     const {sidebar} = content;
 
-    console.log('sidebar', sidebar)
 
     return (
         <Router>

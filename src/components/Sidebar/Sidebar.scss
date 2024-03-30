@@ -8,4 +8,14 @@
       @include option(margin, 0 0 20);
     }
   }
+
+  &__item-link {
+    @include option(font-size, 18);
+    text-decoration: none;
+    color: $WHITE;
+    transition: .1s ease-in-out;
+    &.active {
+      color: #29477e;
+    }
+  }
 }

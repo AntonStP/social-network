@@ -31,22 +31,28 @@ export const content = {
     dialogs: {
         list: [
             {
+                id: "1",
                 name: "Челик"
             },
             {
+                id: "2",
                 name: "Человек",
             },
             {
+                id: "3",
                 name: "Другой",
             },
             {
+                id: "4",
                 name: "Альтушка",
             },
             {
+                id: "5",
                 name: "Скуф",
                 active: true
             },
             {
+                id: "6",
                 name: "Леха"
             }
         ],

@@ -1,4 +1,11 @@
 .dialog {
+  display: inline-block;
   @include option(padding, 20px 0);
   font-variation-settings: "wght" 500;
+  text-decoration: none;
+  color: $BLACK;
+
+  &_active {
+    color: $BLUE;
+  }
 }

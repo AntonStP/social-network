@@ -10,7 +10,7 @@ function Page({dialogs}) {
     return (
         <Routes>
             <Route path={'/'} element={<PageProfile/>}/>
-            <Route path={'/dialogs'} element={<PageDialogs {...dialogs}/>}/>
+            <Route path={'/dialogs/*'} element={<PageDialogs {...dialogs}/>}/>
             <Route path={'/news'} element={<PageNews/>}/>
             <Route path={'/music'} element={<PageMusic/>}/>
             <Route path={'/settings'} element={<PageSettings/>}/>

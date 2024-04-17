@@ -1,0 +1,31 @@
+@use 'sass:math';
+
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return math.div($number, ($number * 0 + 1));
+  }
+  @return $number;
+}
+
+@function adaptive($list, $size) {
+  $to: 1vw;
+  @if(type-of($list!='list')) {
+    @if($size==$DESKTOP) {
+      @return #{strip-unit($list)}px;
+    }
+    @return math.div(strip-unit($list), strip-unit(math.div($size,100))) * $to;
+  }
+}
+
+@function desk($v) {
+  @return adaptive($v, $DESKTOP);
+}
+@function tabl($v) {
+  @return adaptive($v, $TABLET-L);
+}
+@function tab($v) {
+  @return adaptive($v, $MOBILE);
+}
+@function mob($v) {
+  @return adaptive($v, $MOBILE);
+}

@@ -13,8 +13,8 @@
     span {
       display: flex;
       justify-content: center;
-      @include option(width, 32*1.2);
-      @include option(height, 32*1.2);
+      @include option(width, 38);
+      @include option(height, 38);
       background: #29477e;
     }
   }

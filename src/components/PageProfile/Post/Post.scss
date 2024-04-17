@@ -5,8 +5,8 @@
 
 
   &__avatar {
-    @include option(width, 70);
-    @include option(height, 70);
+    @include option(width,70);
+    @include option(height,70);
     @include option(margin-right, 20);
     border-radius: 50%;
     overflow: hidden;

@@ -13,7 +13,8 @@
   }
 
   &__messages {
-    @include option(padding, 0 $P);
+    @include option(padding-left, $P);
+    @include option(padding-right, $P);
     @include option(border-width, 2);
     border: solid gray;
   }

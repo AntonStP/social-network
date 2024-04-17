@@ -1,6 +1,10 @@
 /**
  * breakpoints
  */
+$MOBILE: 320px;
+$TABLET: 768px;
+$TABLET-L: 1024px;
+$DESKTOP: 1440px;
 
 
 $P: 30;
@@ -16,7 +20,9 @@ $BLUE: #29477e;
 /**
  * OTHER
  */
-$MOBILE: 320px;
-$TABLET: 768px;
-$TABLET-L: 1024px;
-$DESKTOP: 1440px;
+//$MOBILE-W: 360px;
+//$MOBILE-H: 640px;
+//$TABLET: 768px;
+//$TABLET-L: 1024px;
+//$DESKTOP-W: 1920px;
+//$DESKTOP-H: 1080px;

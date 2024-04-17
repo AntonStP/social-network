@@ -1,3 +1,4 @@
 .message {
-  @include option(padding, 20px 0);
+  @include option(padding-top, 20px);
+  @include option(padding-bottom, 20px);
 }

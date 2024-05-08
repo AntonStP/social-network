@@ -9,8 +9,15 @@
 
 @function adaptive($list, $size) {
   $to: 1vw;
-  @if(type-of($list!='list')) {
-    @if($size==$DESKTOP) {
+  @if (type-of($list) == list) {
+    $result: ();
+    @each $item in $list {
+      $converted_value: adaptive($item, $size);
+      $result: append($result, $converted_value);
+    }
+    @return $result;
+  } @else {
+    @if ($size == $DESKTOP) {
       @return #{strip-unit($list)}px;
     }
     @return math.div(strip-unit($list), strip-unit(math.div($size,100))) * $to;
@@ -24,7 +31,7 @@
   @return adaptive($v, $TABLET-L);
 }
 @function tab($v) {
-  @return adaptive($v, $MOBILE);
+  @return adaptive($v, $TABLET);
 }
 @function mob($v) {
   @return adaptive($v, $MOBILE);

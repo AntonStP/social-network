@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(): написание адаптива">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_functions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/Message/Message.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Message/Message.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_constants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_constants.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_functions.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/prog/my-projects/social-network/src/utils&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/work/240413_YNAO&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -124,7 +113,9 @@
       <workItem from="1713337286023" duration="4146000" />
       <workItem from="1713386760236" duration="3549000" />
       <workItem from="1713390329240" duration="174000" />
-      <workItem from="1713390511712" duration="3012000" />
+      <workItem from="1713390511712" duration="3059000" />
+      <workItem from="1713601864140" duration="330000" />
+      <workItem from="1715170251578" duration="2459000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
       <option name="closed" value="true" />
@@ -206,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712513150572</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat(): написание адаптива">
+      <option name="closed" value="true" />
+      <created>1713393568994</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713393568994</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

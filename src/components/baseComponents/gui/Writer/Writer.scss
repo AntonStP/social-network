@@ -1,0 +1,24 @@
+.writer {
+
+  &__textarea-box {
+    width: 100%;
+    //@include option(width, 500);
+    @include option(height, 100);
+  }
+
+  &__textarea {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    @include option(padding, $P/2);
+    @include option(font-size, 20);
+    @include option(border-radius, 10);
+    border: 1px solid $BLUE;
+    box-sizing: border-box;
+  }
+
+  &__button {
+    @include option(margin-top, 15);
+    margin-left: auto;
+  }
+}

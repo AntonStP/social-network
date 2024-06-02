@@ -1,13 +1,10 @@
 import Post from "../Post/Post";
 
-function PostsWall() {
+function PostsWall({posts}) {
+
     return (
         <div className="posts-wall">
-            <Post message={'первое сообщение'}/>
-            <Post message={'второе сообщение'}/>
-            <Post message={'третье сообщение'}/>
-            <Post/>
-            <Post/>
+            {posts.map(({message}, id) => <Post key={`m-${id}`} message={message}/>)}
         </div>
     );
 }

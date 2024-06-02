@@ -5,11 +5,11 @@ import PageNews from "../PageNews/PageNews";
 import PageMusic from "../PageMusic/PageMusic";
 import PageSettings from "../PageSettings/PageSettings";
 
-function Page({dialogs}) {
+function Page({profile, dialogs}) {
 
     return (
         <Routes>
-            <Route path={'/'} element={<PageProfile/>}/>
+            <Route path={'/'} element={<PageProfile {...profile}/>}/>
             <Route path={'/dialogs/*'} element={<PageDialogs {...dialogs}/>}/>
             <Route path={'/news'} element={<PageNews/>}/>
             <Route path={'/music'} element={<PageMusic/>}/>

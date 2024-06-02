@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(): адаптив для списка значений">
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="chore(): позиционирование страницы">
       <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Button/Button.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Button/Button.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/copyright.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/copyright.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +127,7 @@
       <workItem from="1716116464682" duration="1009000" />
       <workItem from="1716196452271" duration="29000" />
       <workItem from="1716722073664" duration="1752000" />
-      <workItem from="1717336629623" duration="5036000" />
+      <workItem from="1717336629623" duration="6176000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
       <option name="closed" value="true" />
@@ -228,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715172780706</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="chore(): позиционирование страницы">
+      <option name="closed" value="true" />
+      <created>1717345767096</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717345767096</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +264,7 @@
     <MESSAGE value="chore(Page, Dialog): открытие диалогов при дополнении id пути" />
     <MESSAGE value="feat(): написание адаптива" />
     <MESSAGE value="feat(): адаптив для списка значений" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(): адаптив для списка значений" />
+    <MESSAGE value="chore(): позиционирование страницы" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(): позиционирование страницы" />
   </component>
 </project>

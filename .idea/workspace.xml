@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(): написание адаптива">
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(): адаптив для списка значений">
+      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Button/Button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/copyright.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/copyright.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,30 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/work/240413_YNAO&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "D:/prog/my-projects/social-network/src/components/baseComponents/gui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\prog\my-projects\social-network\src\components\baseComponents\gui" />
       <recent name="D:\prog\my-projects\social-network\src\utils" />
       <recent name="D:\prog\my-projects\social-network\src\components\PageDialogs" />
       <recent name="D:\prog\my-projects\social-network\src\components\ProfilePage" />
       <recent name="D:\prog\my-projects\social-network\src\components\Dialogs" />
-      <recent name="D:\prog\my-projects\social-network\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\prog\my-projects\social-network\src\fonts" />
@@ -115,7 +125,12 @@
       <workItem from="1713390329240" duration="174000" />
       <workItem from="1713390511712" duration="3059000" />
       <workItem from="1713601864140" duration="330000" />
-      <workItem from="1715170251578" duration="2459000" />
+      <workItem from="1715170251578" duration="3315000" />
+      <workItem from="1715539647653" duration="832000" />
+      <workItem from="1716116464682" duration="1009000" />
+      <workItem from="1716196452271" duration="29000" />
+      <workItem from="1716722073664" duration="1752000" />
+      <workItem from="1717336629623" duration="5036000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
       <option name="closed" value="true" />
@@ -205,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713393568994</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat(): адаптив для списка значений">
+      <option name="closed" value="true" />
+      <created>1715172780706</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715172780706</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +258,7 @@
     <MESSAGE value="chore(): изменена структура" />
     <MESSAGE value="chore(Page, Dialog): открытие диалогов при дополнении id пути" />
     <MESSAGE value="feat(): написание адаптива" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(): написание адаптива" />
+    <MESSAGE value="feat(): адаптив для списка значений" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(): адаптив для списка значений" />
   </component>
 </project>

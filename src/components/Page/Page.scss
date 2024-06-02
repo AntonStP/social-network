@@ -1,9 +1,13 @@
 .page {
   grid-area: page;
   @include option(font-size, 16);
+  min-height: 100%;
+
 
   section {
     @include option(padding, 20);
+    min-height: 100%;
+    box-sizing: border-box;
   }
 
 }

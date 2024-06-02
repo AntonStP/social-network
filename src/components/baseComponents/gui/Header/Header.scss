@@ -1,6 +1,10 @@
 .header {
   grid-area: header;
+  align-self: start;
+  display: flex;
+  align-items: center;
   @include option(padding, $P);
+  @include option(height, 70);
   background: coral;
 
   &__title {

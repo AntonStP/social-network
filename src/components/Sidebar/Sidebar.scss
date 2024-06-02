@@ -2,6 +2,9 @@
   grid-area: sidebar;
   background: darksalmon;
   @include option(padding, $P);
+  @include option(width, 200);
+  min-height: 100%;
+  box-sizing: border-box;
 
   &__item {
     &:not(&:last-of-type) {

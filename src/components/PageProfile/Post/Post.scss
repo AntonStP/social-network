@@ -5,6 +5,7 @@
 
 
   &__avatar {
+    flex: 0 0 auto;
     @include option(width,70);
     @include option(height,70);
     @include option(margin-right, 20);

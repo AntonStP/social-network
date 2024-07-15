@@ -1,6 +1,4 @@
 .sidebar {
-  grid-area: sidebar;
-  background: darksalmon;
   @include option(padding, $P);
   @include option(width, 200);
   min-height: 100%;
@@ -15,10 +13,11 @@
   &__item-link {
     @include option(font-size, 18);
     text-decoration: none;
-    color: $WHITE;
+    color: $BLACK;
     transition: .1s ease-in-out;
+    font-variation-settings: "wght" 600, "wdth" 100;
     &.active {
-      color: $BLUE;
+      color: rgba($BLACK, .6);
     }
   }
 }

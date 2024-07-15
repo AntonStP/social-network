@@ -14,10 +14,10 @@ function App() {
         <Router>
             <div className="app">
                 <Header {...header}/>
-                <div className={'page'}>
+                <div className={'app__layout'}>
+                    <Sidebar {...sidebar}/>
                     <Page {...content} state={store.getState()}/>
                 </div>
-                <Sidebar {...sidebar}/>
             </div>
         </Router>
     );

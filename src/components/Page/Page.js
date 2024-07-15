@@ -5,16 +5,18 @@ import PageNews from "../PageNews/PageNews";
 import PageMusic from "../PageMusic/PageMusic";
 import PageSettings from "../PageSettings/PageSettings";
 
-function Page({state, dialogs}) {
+function Page({state}) {
 
     return (
-        <Routes>
-            <Route path={'/'} element={<PageProfile posts={state.posts}/>}/>
-            <Route path={'/dialogs/*'} element={<PageDialogs {...dialogs}/>}/>
-            <Route path={'/news'} element={<PageNews/>}/>
-            <Route path={'/music'} element={<PageMusic/>}/>
-            <Route path={'/settings'} element={<PageSettings/>}/>
-        </Routes>
+        <div className={'page'}>
+            <Routes>
+                <Route path={'/'} element={<PageProfile posts={state.posts}/>}/>
+                <Route path={'/dialogs/*'} element={<PageDialogs dialogs={state.dialogs}/>}/>
+                <Route path={'/news'} element={<PageNews/>}/>
+                <Route path={'/music'} element={<PageMusic/>}/>
+                <Route path={'/settings'} element={<PageSettings/>}/>
+            </Routes>
+        </div>
     );
 }
 

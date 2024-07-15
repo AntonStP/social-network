@@ -5,7 +5,6 @@
   display: grid;
   grid-template-columns: 2fr 7fr ;
   @include option(font-size, 18);
-  background: darkseagreen;
 
   &__list {
     display: flex;

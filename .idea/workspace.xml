@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="chore(Post): исправлено сжатие логотипа">
-      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="chore(state): стейтменеджер, перенесена логика">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageMusic/PageMusic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageMusic/PageMusic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageNews/PageNews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageNews/PageNews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageSettings/PageSettings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageSettings/PageSettings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/copyright.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/copyright.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_constants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_constants.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +138,7 @@
       <workItem from="1717489496778" duration="41000" />
       <workItem from="1717654026236" duration="608000" />
       <workItem from="1717849034125" duration="17000" />
-      <workItem from="1721033520929" duration="8853000" />
+      <workItem from="1721033520929" duration="12885000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
       <option name="closed" value="true" />
@@ -251,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717347120135</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="chore(state): стейтменеджер, перенесена логика">
+      <option name="closed" value="true" />
+      <created>1721081081735</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721081081735</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +302,7 @@
     <MESSAGE value="chore(): позиционирование страницы" />
     <MESSAGE value="feat(Writer, Button): добавлено текстовое поле, чтобы писать на стене" />
     <MESSAGE value="chore(Post): исправлено сжатие логотипа" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(Post): исправлено сжатие логотипа" />
+    <MESSAGE value="chore(state): стейтменеджер, перенесена логика" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(state): стейтменеджер, перенесена логика" />
   </component>
 </project>

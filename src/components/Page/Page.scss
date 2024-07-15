@@ -1,13 +1,14 @@
 .page {
-  grid-area: page;
+  @include option(width, 1200);
+  @include option(padding, $P);
   @include option(font-size, 16);
   min-height: 100%;
+  background: $WHITE;
+  box-sizing: border-box;
 
 
   section {
-    @include option(padding, 20);
     min-height: 100%;
-    box-sizing: border-box;
   }
 
 }

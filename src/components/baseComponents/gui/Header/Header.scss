@@ -1,11 +1,13 @@
 .header {
-  grid-area: header;
-  align-self: start;
   display: flex;
   align-items: center;
   @include option(padding, $P);
-  @include option(height, 70);
-  background: coral;
+  width: 100%;
+  //@include option(height, 70);
+  background: $WHITE;
+  @include option(border-width, 2);
+  border-bottom: solid rgba($GRAY, .5);
+  box-sizing: border-box;
 
   &__title {
     display: flex;
@@ -13,13 +15,17 @@
     @include option(font-size, 32);
     font-variation-settings: "wght" 600, "wdth" 100;
     line-height: 1.2;
-    color: $WHITE;
+    color: $BLACK;
     span {
       display: flex;
+      align-items: center;
       justify-content: center;
       @include option(width, 38);
       @include option(height, 38);
-      background: #29477e;
+      @include option(margin, 0 2 0 0);
+      @include option(border-radius, 8);
+      background: #07F;
+      color: $WHITE;
     }
   }
 }

@@ -4,6 +4,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import {BrowserRouter as Router} from "react-router-dom";
 import Page from "../Page/Page";
 import {content} from "../../constants/copyright";
+import store from "../../redux/state";
 
 function App() {
     const {header, sidebar} = content;
@@ -14,7 +15,7 @@ function App() {
             <div className="app">
                 <Header {...header}/>
                 <div className={'page'}>
-                    <Page {...content}/>
+                    <Page {...content} state={store.getState()}/>
                 </div>
                 <Sidebar {...sidebar}/>
             </div>

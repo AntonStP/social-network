@@ -28,20 +28,6 @@ export const content = {
         ]
     },
 
-    profile: {
-      posts: [
-          {
-              message: "Всем привет"
-          },
-          {
-              message: "я теперь"
-          },
-          {
-              message: "В Тентакле"
-          },
-      ]
-    },
-
     dialogs: {
         list: [
             {

@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(Writer, Button): добавлено текстовое поле, чтобы писать на стене">
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.scss" afterDir="false" />
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="chore(Post): исправлено сжатие логотипа">
+      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/copyright.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/copyright.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
-    "last_opened_file_path": "D:/prog/my-projects/social-network/src/components/baseComponents/gui",
+    "last_opened_file_path": "D:/prog/my-projects/social-network",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,7 +125,11 @@
       <workItem from="1716116464682" duration="1009000" />
       <workItem from="1716196452271" duration="29000" />
       <workItem from="1716722073664" duration="1752000" />
-      <workItem from="1717336629623" duration="6343000" />
+      <workItem from="1717336629623" duration="6558000" />
+      <workItem from="1717489496778" duration="41000" />
+      <workItem from="1717654026236" duration="608000" />
+      <workItem from="1717849034125" duration="17000" />
+      <workItem from="1721033520929" duration="8853000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
       <option name="closed" value="true" />
@@ -232,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717346812002</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="chore(Post): исправлено сжатие логотипа">
+      <option name="closed" value="true" />
+      <created>1717347120135</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717347120135</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +284,7 @@
     <MESSAGE value="feat(): адаптив для списка значений" />
     <MESSAGE value="chore(): позиционирование страницы" />
     <MESSAGE value="feat(Writer, Button): добавлено текстовое поле, чтобы писать на стене" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Writer, Button): добавлено текстовое поле, чтобы писать на стене" />
+    <MESSAGE value="chore(Post): исправлено сжатие логотипа" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(Post): исправлено сжатие логотипа" />
   </component>
 </project>

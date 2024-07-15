@@ -2,7 +2,6 @@ import Button from "../Button/Button";
 
 function Writer({value, onChange, onCLick, inputRef}) {
 
-
     return (
         <div className="writer">
             <div className={"writer__textarea-box"}>

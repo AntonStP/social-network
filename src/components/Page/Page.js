@@ -10,7 +10,7 @@ function Page({state}) {
     return (
         <div className={'page'}>
             <Routes>
-                <Route path={'/'} element={<PageProfile posts={state.posts}/>}/>
+                <Route path={'/'} element={<PageProfile profile={state.profile}/>}/>
                 <Route path={'/dialogs/*'} element={<PageDialogs dialogs={state.dialogs}/>}/>
                 <Route path={'/news'} element={<PageNews/>}/>
                 <Route path={'/music'} element={<PageMusic/>}/>

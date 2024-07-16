@@ -1,22 +1,27 @@
-let store = {
+const store = {
     state: {
-        posts: [
-            {
-                id: 0,
-                message: "Всем привет",
-                likes: 3
+        profile: {
+            user: {
+
             },
-            {
-                id: 0,
-                message: "я теперь",
-                likes: 2
-            },
-            {
-                id: 0,
-                message: "В Тентакле",
-                likes: 6
-            },
-        ],
+            posts: [
+                {
+                    id: 0,
+                    message: "Всем привет",
+                    likes: 3
+                },
+                {
+                    id: 0,
+                    message: "я теперь",
+                    likes: 2
+                },
+                {
+                    id: 0,
+                    message: "В Тентакле",
+                    likes: 6
+                },
+            ],
+        },
         dialogs: {
             list: [
                 {
@@ -61,27 +66,23 @@ let store = {
     getState() {
         return this.state;
     },
-    addPost(message) {
+    _addPost(message) {
         const newPost = {
-            id: this.state.posts.length-1,
+            id: this.state.profile.posts.length-1,
             message: message,
             likes: 0
         }
-        this.state.posts.push(newPost);
-    }
-}
-
-
-// Функция для автоматического биндинга всех методов объекта
-function bindMethods(obj) {
-    for (let key in obj) {
-        if (typeof obj[key] === 'function') {
-            obj[key] = obj[key].bind(obj);
+        this.state.profile.posts.push(newPost);
+    },
+    dispatch(action) {
+        if(action.type === 'ADD-POST') {
+            const {message} = action;
+            this._addPost(message)
         }
     }
 }
-// Применяем биндинг ко всем методам store
-bindMethods(store);
 
-export const {addPost} = store;
+store.dispatch = store.dispatch.bind(store)
+
+export const {dispatch} = store;
 export default store;

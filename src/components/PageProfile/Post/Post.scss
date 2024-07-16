@@ -1,7 +1,23 @@
 .post {
+  position: relative;
   display: flex;
   align-items: center;
   @include option(margin-bottom, 20);
+  &-enter {
+    opacity: 0;
+    transform: translate(0,-50%);
+  }
+  &-enter-active,
+  &-enter-done {
+    opacity: 1;
+    transform: translate(0,0);
+    transition: .3s ease-in-out;
+  }
+  &-exit-active {
+    opacity: 0;
+    transform: translate(0,-10%);
+    transition: .3s ease-in-out;
+  }
 
 
   &__avatar {
@@ -17,5 +33,13 @@
       object-fit: cover;
       object-position: center;
     }
+  }
+
+  &__remove {
+    position: absolute;
+    @include option(top, 15);
+    @include option(right, 15);
+    @include option(width, 20);
+    @include option(height, 20);
   }
 }

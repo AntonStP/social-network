@@ -8,6 +8,9 @@ function PageProfile({profile}) {
     const inputRef = useRef();
     const [input, setInput] = useState('');
 
+    console.log('profile', profile)
+    console.log('posts', posts)
+
     const inputHandler = useCallback(()=> {
         setInput(inputRef.current.value);
     },[inputRef]);

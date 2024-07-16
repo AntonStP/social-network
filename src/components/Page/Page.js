@@ -7,6 +7,7 @@ import PageSettings from "../PageSettings/PageSettings";
 
 function Page({state}) {
 
+    console.log('state ----> ', state)
     return (
         <div className={'page'}>
             <Routes>

@@ -1,5 +1,5 @@
 const store = {
-    state: {
+    _state: {
         profile: {
             user: {
 
@@ -11,12 +11,12 @@ const store = {
                     likes: 3
                 },
                 {
-                    id: 0,
+                    id: 1,
                     message: "я теперь",
                     likes: 2
                 },
                 {
-                    id: 0,
+                    id: 2,
                     message: "В Тентакле",
                     likes: 6
                 },
@@ -64,25 +64,35 @@ const store = {
         }
     },
     getState() {
-        return this.state;
+        return this._state;
     },
     _addPost(message) {
         const newPost = {
-            id: this.state.profile.posts.length-1,
+            id: this._state.profile.posts.length,
             message: message,
             likes: 0
         }
-        this.state.profile.posts.push(newPost);
+        this._state.profile.posts.push(newPost);
+    },
+    _deletePost(messageId) {
+        this._state.profile.posts = this._state.profile.posts.filter((id)=> id !== messageId);
+        // this._state.profile.posts = [];
+        console.log('this state', this._state)
     },
     dispatch(action) {
         if(action.type === 'ADD-POST') {
             const {message} = action;
             this._addPost(message)
+        } else if(action.type === 'DELETE-POST') {
+            const {messageId} = action;
+            this._deletePost(messageId)
         }
     }
 }
 
-store.dispatch = store.dispatch.bind(store)
 
-export const {dispatch} = store;
+
+store.getState = store.getState.bind(store)
+store.dispatch = store.dispatch.bind(store)
+export const {getState, dispatch} = store;
 export default store;

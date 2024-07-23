@@ -3,8 +3,9 @@ import {useCallback, useRef, useState} from "react";
 import Writer from "../baseComponents/gui/Writer/Writer";
 import {useDispatch} from "react-redux";
 import {addPost} from "../../redux/reducer/profile";
+import User from "./User/User";
 
-function PageProfile({posts}) {
+function PageProfile({user, posts}) {
     const dispatch = useDispatch();
     const inputRef = useRef();
     const [input, setInput] = useState('');
@@ -22,6 +23,7 @@ function PageProfile({posts}) {
 
     return (
         <section className={"page-profile"}>
+            <User {...user}/>
             <Writer value={input} onChange={inputHandler} onCLick={_addPost} inputRef={inputRef}/>
             <PostsWall posts={posts}/>
         </section>

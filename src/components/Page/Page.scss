@@ -1,14 +1,18 @@
 .page {
+  display: flex;
+  flex-direction: column;
   @include option(width, 1200);
   @include option(padding, $P);
   @include option(font-size, 16);
-  min-height: 100%;
+  height: 100%;
   background: $WHITE;
+  overflow: auto;
   box-sizing: border-box;
 
 
   section {
-    min-height: 100%;
+    //height: auto;
+    //min-height: 100%;
   }
 
 }

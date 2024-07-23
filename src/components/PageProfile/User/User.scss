@@ -1,0 +1,46 @@
+.user {
+
+  display: flex;
+  @include option(margin, 0 0 $P);
+
+  &__avatar {
+    @include option(width, 200);
+    @include option(height, 250);
+    @include option(margin, 0 30 0 0);
+    border: 2px solid $GRAY;
+    background: $BG;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    @include option(padding, $P);
+    list-style-type: none;
+  }
+
+  &__info-item {
+    display: flex;
+    align-items: flex-end;
+    @include option(font-size, 20);
+  }
+
+  &__info-item-el {
+    @include option(margin, 0 10 0 0);
+    font-weight: 500;
+    color: $BLUE;
+
+  }
+
+  &__info-item-value {
+    color: $GRAY-TEXT;
+  }
+
+}

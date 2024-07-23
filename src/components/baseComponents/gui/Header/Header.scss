@@ -1,9 +1,9 @@
 .header {
   display: flex;
   align-items: center;
-  @include option(padding, $P);
+  @include option(padding, 0 $P);
   width: 100%;
-  //@include option(height, 70);
+  height: 10%;
   background: $WHITE;
   @include option(border-width, 2);
   border-bottom: solid rgba($GRAY, .5);

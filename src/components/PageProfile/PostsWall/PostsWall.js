@@ -1,26 +1,27 @@
 import Post from "../Post/Post";
-import {CSSTransition, SwitchTransition, TransitionGroup} from "react-transition-group";
+import {CSSTransition, TransitionGroup} from "react-transition-group";
 import {useCallback} from "react";
-import {dispatch} from "../../../redux/state";
+import {useDispatch} from "react-redux";
+import {deletePost} from "../../../redux/reducer/profile";
 
 function PostsWall({posts}) {
+    const dispatch = useDispatch();
 
-    const deletePost = useCallback((id)=> {
+    const _deletePost = useCallback((id) => {
         console.log('click!')
-        dispatch({type: "DELETE-POST", messageId: id})
-    },[])
+        dispatch(deletePost(id))
+    }, [dispatch])
 
 
     return (
         <div className="posts-wall">
             <TransitionGroup component={null}>
-
-                        {
-                            posts.map(({message}, id) =>
-                                <CSSTransition key={`post-${id}`} timeout={300} classNames={'post'}>
-                                    <Post id={id} message={message} deletePost={()=> deletePost(id)}/>
-                                </CSSTransition>)
-                        }
+                {
+                    posts.map(({id,message}, index) =>
+                        <CSSTransition key={`post-${id}`} timeout={300} classNames={'post'}>
+                            <Post message={message} deletePost={() => _deletePost(id)}/>
+                        </CSSTransition>)
+                }
             </TransitionGroup>
         </div>
     );

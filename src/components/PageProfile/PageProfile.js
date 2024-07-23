@@ -1,15 +1,13 @@
 import PostsWall from "./PostsWall/PostsWall";
 import {useCallback, useRef, useState} from "react";
 import Writer from "../baseComponents/gui/Writer/Writer";
-import {dispatch} from "../../redux/state";
+import {useDispatch} from "react-redux";
+import {addPost} from "../../redux/reducer/profile";
 
-function PageProfile({profile}) {
-    const {posts} = profile;
+function PageProfile({posts}) {
+    const dispatch = useDispatch();
     const inputRef = useRef();
     const [input, setInput] = useState('');
-
-    console.log('profile', profile)
-    console.log('posts', posts)
 
     const inputHandler = useCallback(()=> {
         setInput(inputRef.current.value);
@@ -17,7 +15,7 @@ function PageProfile({profile}) {
 
     const _addPost = useCallback(()=> {
         if(input.length===0) return;
-        dispatch({type: "ADD-POST", message: input})
+        dispatch(addPost(input))
         setInput('');
     },[input]);
 

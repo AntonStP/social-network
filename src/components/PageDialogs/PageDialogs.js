@@ -2,8 +2,7 @@ import Dialog from "./Dialog/Dialog";
 import Message from "./Message/Message";
 import dialog from "./Dialog/Dialog";
 
-function PageDialogs({dialogs}) {
-    const {list, messages} = dialogs;
+function PageDialogs({list, messages}) {
 
     return (
         <section className={"page-dialogs"}>

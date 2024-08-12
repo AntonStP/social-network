@@ -5,6 +5,7 @@
   font-variation-settings: "wght" 500;
   text-decoration: none;
   color: $BLACK;
+  transition: .3s ease-in-out;
 
   &_active {
     color: $BLUE;

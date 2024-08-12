@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(PageProfile ,User): добавлена инфа о пользователе">
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/contentBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/contentBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer/dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/dialogs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,7 @@
       <workItem from="1721133585579" duration="10426000" />
       <workItem from="1721767465786" duration="6976000" />
       <workItem from="1722666599617" duration="49000" />
-      <workItem from="1723466931014" duration="2142000" />
+      <workItem from="1723466931014" duration="5590000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
       <option name="closed" value="true" />
@@ -301,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721774473485</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс">
+      <option name="closed" value="true" />
+      <created>1723470899143</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723470899143</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +350,7 @@
     <MESSAGE value="chore(): анимировано появление постов, подготовка к удалению" />
     <MESSAGE value="feat(store): перенос данных в редакс" />
     <MESSAGE value="feat(PageProfile ,User): добавлена инфа о пользователе" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(PageProfile ,User): добавлена инфа о пользователе" />
+    <MESSAGE value="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс" />
   </component>
 </project>

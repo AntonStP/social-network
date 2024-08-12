@@ -32,40 +32,23 @@ export const  profile = {
 export const dialogs=  {
         list: [
             {
-                id: "1",
-                name: "Челик"
+                id: "elizaveta",
+                name: "Елизавета",
+                messages: [
+                    {
+                        text: "Привет"
+                    }
+                ]
             },
+
             {
-                id: "2",
-                name: "Человек",
+                id: "alexey",
+                name: "Алексей",
+                messages: [
+                    {
+                        text: "Привет 2"
+                    }
+                ]
             },
-            {
-                id: "3",
-                name: "Другой",
-            },
-            {
-                id: "4",
-                name: "Альтушка",
-            },
-            {
-                id: "5",
-                name: "Скуф",
-                active: true
-            },
-            {
-                id: "6",
-                name: "Леха"
-            }
         ],
-        messages: [
-            {
-                text: 'Привет'
-            },
-            {
-                text: 'Что такое',
-            },
-            {
-                text: 'Ипаписа ипакакал'
-            }
-        ]
     };

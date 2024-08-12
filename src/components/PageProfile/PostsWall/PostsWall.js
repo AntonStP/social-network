@@ -8,7 +8,6 @@ function PostsWall({posts}) {
     const dispatch = useDispatch();
 
     const _deletePost = useCallback((id) => {
-        console.log('click!')
         dispatch(deletePost(id))
     }, [dispatch])
 

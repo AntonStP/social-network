@@ -1,30 +1,28 @@
 import PostsWall from "./PostsWall/PostsWall";
-import {useCallback, useRef, useState} from "react";
+import {useCallback, useRef} from "react";
 import Writer from "../baseComponents/gui/Writer/Writer";
 import {useDispatch} from "react-redux";
-import {addPost} from "../../redux/reducer/profile";
+import {addPost, writePost} from "../../redux/reducer/profile";
 import User from "./User/User";
 
-function PageProfile({user, posts}) {
+function PageProfile({user, posts, currentPost}) {
     const dispatch = useDispatch();
-    const inputRef = useRef();
-    const [input, setInput] = useState('');
 
-    const inputHandler = useCallback(()=> {
-        setInput(inputRef.current.value);
-    },[inputRef]);
+    const inputHandler = useCallback((text)=> {
+        dispatch(writePost(text));
+    },[]);
 
     const _addPost = useCallback(()=> {
-        if(input.length===0) return;
-        dispatch(addPost(input))
-        setInput('');
-    },[input]);
+        if(currentPost.length===0) return;
+        dispatch(addPost(currentPost));
+        dispatch(writePost(''));
+    },[currentPost]);
 
 
     return (
         <section className={"page-profile"}>
             <User {...user}/>
-            <Writer value={input} onChange={inputHandler} onCLick={_addPost} inputRef={inputRef}/>
+            <Writer value={currentPost} onChange={inputHandler} onCLick={_addPost}/>
             <PostsWall posts={posts}/>
         </section>
     );

@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс">
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="chore(PageDialogs, Dialog): открытие сообщений по пользователю">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/contentBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/contentBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/profile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "D:/prog/my-projects/social-network",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/prog/my-projects/social-network&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\prog\my-projects\social-network\src\components\PageProfile" />
@@ -132,7 +132,10 @@
       <workItem from="1721133585579" duration="10426000" />
       <workItem from="1721767465786" duration="6976000" />
       <workItem from="1722666599617" duration="49000" />
-      <workItem from="1723466931014" duration="5590000" />
+      <workItem from="1723466931014" duration="5661000" />
+      <workItem from="1724056259980" duration="77000" />
+      <workItem from="1728933447008" duration="122000" />
+      <workItem from="1730926624763" duration="1359000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
       <option name="closed" value="true" />
@@ -310,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723470899143</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="chore(PageDialogs, Dialog): открытие сообщений по пользователю">
+      <option name="closed" value="true" />
+      <created>1723474895423</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723474895423</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +362,7 @@
     <MESSAGE value="feat(store): перенос данных в редакс" />
     <MESSAGE value="feat(PageProfile ,User): добавлена инфа о пользователе" />
     <MESSAGE value="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс" />
+    <MESSAGE value="chore(PageDialogs, Dialog): открытие сообщений по пользователю" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(PageDialogs, Dialog): открытие сообщений по пользователю" />
   </component>
 </project>

@@ -2,8 +2,8 @@ export const  profile = {
         user: {
             info: {
                 name: {el: "Имя", value: "Иван"},
-                familyName: {el: "Иванов", value: "Иванов"},
-                surname: {el: "Иванович", value: "Иванович"},
+                familyName: {el: "Фамилия", value: "Иванов"},
+                surname: {el: "Отчество", value: "Иванович"},
                 birthday: {el: "Дата рождения", value: "16.05.1996"},
                 city: {el: "Город", value: "Голопопинск"},
             },

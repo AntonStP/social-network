@@ -5,12 +5,8 @@ const profileSlice = createSlice({
     name: "profile",
     initialState: {
         ...profile,
-        currentPost: '',
     },
     reducers: {
-        writePost(state, action) {
-            state.currentPost = action.payload;
-        },
         addPost(state, action) {
             const text = action.payload;
             const date = +new Date()
@@ -25,7 +21,6 @@ const profileSlice = createSlice({
 });
 
 export const {
-    writePost,
     addPost,
     deletePost
 } = profileSlice.actions;

@@ -11,62 +11,74 @@ export const  profile = {
         },
         posts: [
             {
-                id: "me",
+                id: "1",
+                userId: "me",
                 message: "Бу!",
                 likes: 3
             },
             {
-                id: "me",
+                id: "2",
+                userId: "me",
                 message: "Бу!",
                 likes: 3
             },
             {
-                id: "me",
+                id: "3",
+                userId: "me",
                 message: "Бу!",
                 likes: 3
             },
             {
-                id: "me",
+                id: "4",
+                userId: "me",
                 message: "Бу!",
                 likes: 3
             },
             {
-                id: "me",
+                id: "5",
+                userId: "me",
                 message: "Бу!",
                 likes: 3
             },
             {
-                id: "me",
+                id: "6",
+                userId: "me",
                 message: "Бу!",
                 likes: 3
             },
             {
-                id: "me",
+                id: "7",
+                userId: "me",
                 message: "Испугался?",
                 likes: 2
             },
             {
-                id: "me",
+                id: "8",
+                userId: "me",
                 message: "Не бойся, я друг, я тебя не обижу.",
                 likes: 6
             },
             {
-                id: "me",
+                id: "9",
+                userId: "me",
                 message: "Иди сюда, иди ко мне, сядь рядом со мной, посмотри мне в глаза.",
                 likes: 6
             },
             {
-                id: "me",
+                id: "10",
+                userId: "me",
                 message: "ы видишь меня? Я тоже тебя вижу. Давай смотреть друг на друга до тех пор, пока наши глаза не устанут.",
                 likes: 6
             },
             {
-                id: "me",
+                id: "11",
+                userId: "me",
                 message: "Ты не хочешь?",
                 likes: 6
             },
             {
-                id: "me",
+                id: "12",
+                userId: "me",
                 message: "Почему? Что-то не так?",
                 likes: 6
             },

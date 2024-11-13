@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="feat(PageDialogs): добавление сообщений в диалог">
-      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Scroll/Scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Scroll/Scroll.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section/Section.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section/Section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/scroll-settings.js" afterDir="false" />
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="chore(Page-Profile): добавлен скрол на страницу профиля">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page/Page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/Page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/contentBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/contentBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +101,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731495912272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(Scroll): добален кастомный скрол">
+      <option name="closed" value="true" />
+      <created>1731503376070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731503376070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore(Page-Profile): добавлен скрол на страницу профиля">
+      <option name="closed" value="true" />
+      <created>1731503493330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731503493330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +137,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="feat(PageDialogs): добавление сообщений в диалог" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(PageDialogs): добавление сообщений в диалог" />
+    <MESSAGE value="chore(Scroll): добален кастомный скрол" />
+    <MESSAGE value="feat(Scroll): добален кастомный скрол" />
+    <MESSAGE value="chore(Page-Profile): добавлен скрол на страницу профиля" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(Page-Profile): добавлен скрол на страницу профиля" />
   </component>
 </project>

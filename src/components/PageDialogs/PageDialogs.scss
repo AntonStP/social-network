@@ -39,4 +39,11 @@
     }
   }
 
+  &__writer {
+    @include option(margin, 30 0 0);
+  }
+
+
+
+
 }

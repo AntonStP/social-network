@@ -4,28 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="chore(PageDialogs, Dialog): открытие сообщений по пользователю">
+    <list default="true" id="f024de5d-b21a-4cbd-9516-08add5e7e9b2" name="Changes" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PageProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/Post/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageProfile/PostsWall/PostsWall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/baseComponents/gui/Writer/Writer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/Dialog/Dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageDialogs/PageDialogs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/contentBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/contentBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer/dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/dialogs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,41 +33,29 @@
 }</component>
   <component name="ProjectId" id="2akxaA0cIjRNNdmfkwfI5mzAJVS" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/prog/my-projects/social-network&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "D:/prog/my-projects/social-network",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\prog\my-projects\social-network\src\components\PageProfile" />
-      <recent name="D:\prog\my-projects\social-network\src\icons\gui" />
-      <recent name="D:\prog\my-projects\social-network\src\icons" />
-      <recent name="D:\prog\my-projects\social-network\public\icons\gui" />
-      <recent name="D:\prog\my-projects\social-network\src\components\baseComponents\gui" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\prog\my-projects\social-network\src\fonts" />
-      <recent name="D:\prog\my-projects\social-network\src\components\PageProfile" />
-      <recent name="D:\prog\my-projects\social-network\src\components\Dialogs" />
-      <recent name="D:\prog\my-projects\social-network\public" />
-      <recent name="D:\prog\my-projects\social-network\src\components\Profile" />
+      <recent name="D:\prog\my-projects\social-network" />
     </key>
   </component>
   <component name="RunManager">
@@ -99,229 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704876438997</updated>
       <workItem from="1704876440262" duration="929000" />
-      <workItem from="1707654154442" duration="1598000" />
-      <workItem from="1707656219306" duration="74000" />
-      <workItem from="1707656379371" duration="69000" />
-      <workItem from="1707656456696" duration="191000" />
-      <workItem from="1707659695049" duration="709000" />
-      <workItem from="1707982940832" duration="23000" />
-      <workItem from="1707983117490" duration="111000" />
-      <workItem from="1708685628740" duration="4580000" />
-      <workItem from="1709195813179" duration="14000" />
-      <workItem from="1711300221821" duration="1151000" />
-      <workItem from="1711352296852" duration="9000" />
-      <workItem from="1711566964571" duration="7169000" />
-      <workItem from="1711814940536" duration="9795000" />
-      <workItem from="1712217285888" duration="870000" />
-      <workItem from="1712509820918" duration="3274000" />
-      <workItem from="1713337286023" duration="4146000" />
-      <workItem from="1713386760236" duration="3549000" />
-      <workItem from="1713390329240" duration="174000" />
-      <workItem from="1713390511712" duration="3059000" />
-      <workItem from="1713601864140" duration="330000" />
-      <workItem from="1715170251578" duration="3315000" />
-      <workItem from="1715539647653" duration="832000" />
-      <workItem from="1716116464682" duration="1009000" />
-      <workItem from="1716196452271" duration="29000" />
-      <workItem from="1716722073664" duration="1752000" />
-      <workItem from="1717336629623" duration="6558000" />
-      <workItem from="1717489496778" duration="41000" />
-      <workItem from="1717654026236" duration="608000" />
-      <workItem from="1717849034125" duration="17000" />
-      <workItem from="1721033520929" duration="12931000" />
-      <workItem from="1721133585579" duration="10426000" />
-      <workItem from="1721767465786" duration="6976000" />
-      <workItem from="1722666599617" duration="49000" />
-      <workItem from="1723466931014" duration="5661000" />
-      <workItem from="1724056259980" duration="77000" />
-      <workItem from="1728933447008" duration="122000" />
-      <workItem from="1730926624763" duration="1359000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: добавлена базовая структура">
-      <option name="closed" value="true" />
-      <created>1706363533336</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1706363533336</updated>
-    </task>
-    <task id="LOCAL-00002" summary="chore(mixins): упрощение миксинов">
-      <option name="closed" value="true" />
-      <created>1708685957504</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1708685957504</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat(Profile, PostsWall, Post): добавлены компоненты, изменение структуры">
-      <option name="closed" value="true" />
-      <created>1708690204593</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1708690204593</updated>
-    </task>
-    <task id="LOCAL-00004" summary="style(): подключение стилей">
-      <option name="closed" value="true" />
-      <created>1711575882295</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1711575882295</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat(): добавлены основные страницы">
-      <option name="closed" value="true" />
-      <created>1711575919679</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1711575919679</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat(): роутинг страниц">
-      <option name="closed" value="true" />
-      <created>1711576006509</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1711576006509</updated>
-    </task>
-    <task id="LOCAL-00007" summary="chore(Sidebar): цвет активных ссылок">
-      <option name="closed" value="true" />
-      <created>1711817037339</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1711817037339</updated>
-    </task>
-    <task id="LOCAL-00008" summary="feat(): подключены шрифты">
-      <option name="closed" value="true" />
-      <created>1711819561369</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1711819561369</updated>
-    </task>
-    <task id="LOCAL-00009" summary="chore(): изменена структура">
-      <option name="closed" value="true" />
-      <created>1711827133940</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1711827133940</updated>
-    </task>
-    <task id="LOCAL-00010" summary="chore(Page, Dialog): открытие диалогов при дополнении id пути">
-      <option name="closed" value="true" />
-      <created>1712513150572</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1712513150572</updated>
-    </task>
-    <task id="LOCAL-00011" summary="feat(): написание адаптива">
-      <option name="closed" value="true" />
-      <created>1713393568994</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1713393568994</updated>
-    </task>
-    <task id="LOCAL-00012" summary="feat(): адаптив для списка значений">
-      <option name="closed" value="true" />
-      <created>1715172780706</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1715172780706</updated>
-    </task>
-    <task id="LOCAL-00013" summary="chore(): позиционирование страницы">
-      <option name="closed" value="true" />
-      <created>1717345767096</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1717345767096</updated>
-    </task>
-    <task id="LOCAL-00014" summary="feat(Writer, Button): добавлено текстовое поле, чтобы писать на стене">
-      <option name="closed" value="true" />
-      <created>1717346812002</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1717346812002</updated>
-    </task>
-    <task id="LOCAL-00015" summary="chore(Post): исправлено сжатие логотипа">
-      <option name="closed" value="true" />
-      <created>1717347120135</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1717347120135</updated>
-    </task>
-    <task id="LOCAL-00016" summary="chore(state): стейтменеджер, перенесена логика">
-      <option name="closed" value="true" />
-      <created>1721081081735</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1721081081735</updated>
-    </task>
-    <task id="LOCAL-00017" summary="chore(): стилизация">
-      <option name="closed" value="true" />
-      <created>1721084733088</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1721084733088</updated>
-    </task>
-    <task id="LOCAL-00018" summary="chore(state): переделано обращение к методам на dispatch">
-      <option name="closed" value="true" />
-      <created>1721138785756</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1721138785757</updated>
-    </task>
-    <task id="LOCAL-00019" summary="chore(): анимировано появление постов, подготовка к удалению">
-      <option name="closed" value="true" />
-      <created>1721146651710</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1721146651710</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feat(store): перенос данных в редакс">
-      <option name="closed" value="true" />
-      <created>1721771609250</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1721771609250</updated>
-    </task>
-    <task id="LOCAL-00021" summary="feat(PageProfile ,User): добавлена инфа о пользователе">
-      <option name="closed" value="true" />
-      <created>1721774473485</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1721774473485</updated>
-    </task>
-    <task id="LOCAL-00022" summary="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс">
-      <option name="closed" value="true" />
-      <created>1723470899143</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1723470899143</updated>
-    </task>
-    <task id="LOCAL-00023" summary="chore(PageDialogs, Dialog): открытие сообщений по пользователю">
-      <option name="closed" value="true" />
-      <created>1723474895423</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1723474895423</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,29 +103,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <MESSAGE value="feat: добавлена базовая структура" />
-    <MESSAGE value="chore(mixins): упрощение миксинов" />
-    <MESSAGE value="feat(Profile, PostsWall, Post): добавлены компоненты, изменение структуры" />
-    <MESSAGE value="style(): подключение стилей" />
-    <MESSAGE value="feat(): добавлены основные страницы" />
-    <MESSAGE value="feat(): роутинг страниц" />
-    <MESSAGE value="chore(Sidebar): цвет активных ссылок" />
-    <MESSAGE value="feat(): подключены шрифты" />
-    <MESSAGE value="chore(): изменена структура" />
-    <MESSAGE value="chore(Page, Dialog): открытие диалогов при дополнении id пути" />
-    <MESSAGE value="feat(): написание адаптива" />
-    <MESSAGE value="feat(): адаптив для списка значений" />
-    <MESSAGE value="chore(): позиционирование страницы" />
-    <MESSAGE value="feat(Writer, Button): добавлено текстовое поле, чтобы писать на стене" />
-    <MESSAGE value="chore(Post): исправлено сжатие логотипа" />
-    <MESSAGE value="chore(state): стейтменеджер, перенесена логика" />
-    <MESSAGE value="chore(): стилизация" />
-    <MESSAGE value="chore(state): переделано обращение к методам на dispatch" />
-    <MESSAGE value="chore(): анимировано появление постов, подготовка к удалению" />
-    <MESSAGE value="feat(store): перенос данных в редакс" />
-    <MESSAGE value="feat(PageProfile ,User): добавлена инфа о пользователе" />
-    <MESSAGE value="feat(PageProfile, Writer): сохранение ввода сообщения сразу в редакс" />
-    <MESSAGE value="chore(PageDialogs, Dialog): открытие сообщений по пользователю" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(PageDialogs, Dialog): открытие сообщений по пользователю" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

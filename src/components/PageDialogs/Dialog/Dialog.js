@@ -3,8 +3,9 @@ import {Link} from "react-router-dom";
 import {useDispatch} from "react-redux";
 import {useCallback} from "react";
 import {selectDialog} from "../../../redux/reducer/dialogs";
+import {safeHTML} from "../../../utils/safeHTML";
 
-function Dialog({id, name, activeDialog}) {
+function Dialog({id, info, activeDialog}) {
     const dispatch = useDispatch();
 
     const click = useCallback((id) => {
@@ -14,7 +15,7 @@ function Dialog({id, name, activeDialog}) {
     return (
         <Link to={`/dialogs/${id}`} className={classNames("dialog", {'dialog_active': activeDialog === id})}
               onClick={() => click(id)}>
-            {name}
+            {safeHTML(info.name.value)}
         </Link>
     );
 }

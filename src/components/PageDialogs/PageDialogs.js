@@ -1,12 +1,13 @@
 import Dialog from "./Dialog/Dialog";
 import Message from "./Message/Message";
 import {CSSTransition, SwitchTransition} from "react-transition-group";
-import {useMemo} from "react";
+import {useCallback, useMemo} from "react";
+import Writer from "../baseComponents/gui/Writer/Writer";
+import {useDispatch} from "react-redux";
+import {addMessage} from "../../redux/reducer/dialogs";
 
-function PageDialogs({list, activeDialog}) {
-
-    //TODO: дописать логику сообщений своих и чужого пользователя
-    //TODO: подключитб writer для создания своих новых сообщений
+function PageDialogs({users, list, activeDialog}) {
+    const dispatch = useDispatch();
 
     const _activeDialog = useMemo(()=> {
         if(activeDialog) return activeDialog;
@@ -18,11 +19,15 @@ function PageDialogs({list, activeDialog}) {
         return user[0].messages;
     }, [list, _activeDialog]);
 
+    const sendMessage = useCallback((value)=> {
+        dispatch(addMessage(value))
+    },[activeDialog]);
+
 
     return (
         <section className={"page-dialogs"}>
             <div className={'page-dialogs__list'}>
-                {list.map(el => <Dialog key={el.id} {...el} activeDialog={_activeDialog}/>)}
+                {users.map(el => <Dialog key={el.id} {...el} activeDialog={_activeDialog}/>)}
             </div>
             <div className={'page-dialogs__wall'}>
                 <SwitchTransition>
@@ -32,9 +37,12 @@ function PageDialogs({list, activeDialog}) {
                         </div>
                     </CSSTransition>
                 </SwitchTransition>
+                <div className={'page-dialogs__writer'}>
+                    <Writer onCLick={sendMessage}/>
+                </div>
             </div>
         </section>
-);
+    );
 }
 
 export default PageDialogs;

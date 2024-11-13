@@ -11,18 +11,63 @@ export const  profile = {
         },
         posts: [
             {
-                id: 0,
-                message: "Всем привет",
+                id: "me",
+                message: "Бу!",
                 likes: 3
             },
             {
-                id: 1,
-                message: "я теперь",
+                id: "me",
+                message: "Бу!",
+                likes: 3
+            },
+            {
+                id: "me",
+                message: "Бу!",
+                likes: 3
+            },
+            {
+                id: "me",
+                message: "Бу!",
+                likes: 3
+            },
+            {
+                id: "me",
+                message: "Бу!",
+                likes: 3
+            },
+            {
+                id: "me",
+                message: "Бу!",
+                likes: 3
+            },
+            {
+                id: "me",
+                message: "Испугался?",
                 likes: 2
             },
             {
-                id: 2,
-                message: "В Тентакле",
+                id: "me",
+                message: "Не бойся, я друг, я тебя не обижу.",
+                likes: 6
+            },
+            {
+                id: "me",
+                message: "Иди сюда, иди ко мне, сядь рядом со мной, посмотри мне в глаза.",
+                likes: 6
+            },
+            {
+                id: "me",
+                message: "ы видишь меня? Я тоже тебя вижу. Давай смотреть друг на друга до тех пор, пока наши глаза не устанут.",
+                likes: 6
+            },
+            {
+                id: "me",
+                message: "Ты не хочешь?",
+                likes: 6
+            },
+            {
+                id: "me",
+                message: "Почему? Что-то не так?",
                 likes: 6
             },
         ],

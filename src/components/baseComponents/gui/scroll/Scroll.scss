@@ -1,0 +1,18 @@
+.scroll {
+
+  .scrollbar-container {
+    @include option(padding, 0 $P 0 0);
+    box-sizing: border-box;
+  }
+
+  .ps__rail-y {
+
+  }
+  .ps__thumb-y {
+    @include option(width, 6);
+    right: 0px!important;
+    @include option(border-radius, 24);
+    background: #90b8f1;
+  }
+
+}

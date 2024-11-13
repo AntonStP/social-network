@@ -2,7 +2,7 @@ import Dialog from "./Dialog/Dialog";
 import Message from "./Message/Message";
 import {CSSTransition, SwitchTransition} from "react-transition-group";
 import {useCallback, useMemo} from "react";
-import Writer from "../baseComponents/gui/Writer/Writer";
+import Writer from "../baseComponents/gui/writer/Writer";
 import {useDispatch} from "react-redux";
 import {addMessage} from "../../redux/reducer/dialogs";
 

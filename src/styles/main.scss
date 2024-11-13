@@ -11,11 +11,13 @@
 //Gui
 @import "../components/baseComponents/gui/Header/Header";
 @import "../components/baseComponents/gui/Button/Button";
-@import "../components/baseComponents/gui/Writer/Writer";
+@import "../components/baseComponents/gui/writer/Writer";
+@import "../components/baseComponents/gui/scroll/Scroll";
 
 //Components
 @import "../components/App/App";
 @import "../components/Page/Page";
+@import "../components/section/Section";
 @import "../components/Sidebar/Sidebar";
 
 @import "../components/PageProfile/PageProfile";

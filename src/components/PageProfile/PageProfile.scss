@@ -3,4 +3,10 @@
 @import "Post/Post";
 
 .page-profile {
+
+  &__content {
+    @include option(padding, $P 0 0);
+    box-sizing: border-box;
+  }
+
 }

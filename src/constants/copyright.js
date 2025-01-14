@@ -1,6 +1,6 @@
 export const content = {
     header: {
-        title: "<span>В</span>переписке"
+        title: "<span>В</span>беде"
     },
 
     sidebar: {

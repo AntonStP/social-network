@@ -3,7 +3,9 @@
 
 .page-dialogs {
   display: grid;
-  grid-template-columns: 2fr 7fr ;
+  grid-template-columns: 2fr 7fr;
+  @include option(padding, 0  $P);
+  @include option(grid-gap, 0  $P);
   @include option(font-size, 18);
 
   &__list {
@@ -12,10 +14,7 @@
   }
 
   &__wall {
-    width: 100%;
     @include option(height, 500);
-    @include option(border-width, 2);
-    border: solid gray;
   }
 
   &__messages {
@@ -23,6 +22,8 @@
     height: 100%;
     @include option(padding-left, $P);
     @include option(padding-right, $P);
+    @include option(border-width, 2);
+    border: solid gray;
     box-sizing: border-box;
     &-enter {
       opacity: 0;

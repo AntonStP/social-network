@@ -1,5 +1,6 @@
 export const  profile = {
         user: {
+            id: "my-id",
             info: {
                 name: {el: "Имя", value: "Иван"},
                 familyName: {el: "Фамилия", value: "Иванов"},
@@ -12,73 +13,73 @@ export const  profile = {
         posts: [
             {
                 id: "1",
-                userId: "me",
+                userId: "my-id",
                 message: "Бу!",
                 likes: 3
             },
             {
                 id: "2",
-                userId: "me",
+                userId: "my-id",
                 message: "Бу!",
                 likes: 3
             },
             {
                 id: "3",
-                userId: "me",
+                userId: "my-id",
                 message: "Бу!",
                 likes: 3
             },
             {
                 id: "4",
-                userId: "me",
+                userId: "my-id",
                 message: "Бу!",
                 likes: 3
             },
             {
                 id: "5",
-                userId: "me",
+                userId: "my-id",
                 message: "Бу!",
                 likes: 3
             },
             {
                 id: "6",
-                userId: "me",
+                userId: "my-id",
                 message: "Бу!",
                 likes: 3
             },
             {
                 id: "7",
-                userId: "me",
+                userId: "my-id",
                 message: "Испугался?",
                 likes: 2
             },
             {
                 id: "8",
-                userId: "me",
+                userId: "my-id",
                 message: "Не бойся, я друг, я тебя не обижу.",
                 likes: 6
             },
             {
                 id: "9",
-                userId: "me",
+                userId: "my-id",
                 message: "Иди сюда, иди ко мне, сядь рядом со мной, посмотри мне в глаза.",
                 likes: 6
             },
             {
                 id: "10",
-                userId: "me",
+                userId: "my-id",
                 message: "ы видишь меня? Я тоже тебя вижу. Давай смотреть друг на друга до тех пор, пока наши глаза не устанут.",
                 likes: 6
             },
             {
                 id: "11",
-                userId: "me",
+                userId: "my-id",
                 message: "Ты не хочешь?",
                 likes: 6
             },
             {
                 id: "12",
-                userId: "me",
+                userId: "my-id",
                 message: "Почему? Что-то не так?",
                 likes: 6
             },
@@ -118,7 +119,32 @@ export const dialogs=  {
                     {
                         id: "elizaveta",
                         text: "Привет"
+                    },
+                    {
+                        id: "elizaveta",
+                        text: "Привет"
+                    },
+                    {
+                        id: "elizaveta",
+                        text: "Привет"
+                    },
+                    {
+                        id: "elizaveta",
+                        text: "Привет"
+                    },
+                    {
+                        id: "elizaveta",
+                        text: "Привет"
+                    },
+                    {
+                        id: "elizaveta",
+                        text: "Привет"
+                    },
+                    {
+                        id: "elizaveta",
+                        text: "Привет"
                     }
+
                 ]
             },
 

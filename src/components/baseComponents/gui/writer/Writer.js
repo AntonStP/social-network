@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
 import {useCallback, useState} from "react";
 
-function Writer({onChange, onCLick}) {
+function Writer({onCLick}) {
     const [value, setValue] = useState('');
 
     const click = useCallback(()=> {

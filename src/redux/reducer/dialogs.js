@@ -17,7 +17,7 @@ const dialogsSlice = createSlice({
             if(!state?.activeDialog) return;
             const curElement = (el)=> el.id === state.activeDialog;
             const currentMessagesId = state.list.findIndex(curElement);
-            state.list[currentMessagesId].messages = [...state.list[currentMessagesId].messages, {id: "me", text: payload}]
+            state.list[currentMessagesId].messages = [...state.list[currentMessagesId].messages, {id: "my-id", text: payload}]
         }
     },
 });

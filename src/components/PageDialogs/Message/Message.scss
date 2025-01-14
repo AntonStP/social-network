@@ -1,4 +1,13 @@
 .message {
-  @include option(padding-top, 20px);
-  @include option(padding-bottom, 20px);
+  flex: 0 0 auto;
+  @include option(margin, $P/3 0);
+  @include option(padding, $P/3 $P/2);
+  @include option(border-radius, $P/3 $P $P $P);
+  background: $GRAY;
+  box-sizing: border-box;
+  &_user {
+    align-self: flex-end;
+    @include option(border-radius, $P $P/2 $P $P);
+    background: $BLUE-L;
+  }
 }

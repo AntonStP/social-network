@@ -1,7 +1,10 @@
+import classNames from "classnames";
 
-function Message({text}) {
+function Message({text, id}) {
     return (
-        <div className={"message"}>{text}</div>
+        <div className={classNames("message", {
+            "message_user": id==="my-id"
+        })}>{text}</div>
     );
 }
 
